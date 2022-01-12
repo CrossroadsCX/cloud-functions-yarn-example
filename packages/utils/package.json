@@ -7,9 +7,16 @@
     "lint": "eslint --ext=tsx,ts,js src"
   },
   "dependencies": {
+    "@google-cloud/logging-winston": "^4.1.1",
     "winston": "^3.4.0"
   },
   "devDependencies": {
-    "@crossroadscx/eslint-config-example": "workspace:^"
+    "@crossroadscx/eslint-config-example": "workspace:^",
+    "@types/node": "^17.0.8",
+    "ts-node": "^10.4.0",
+    "tslib": "^2.3.1",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.5.4",
+    "typescript-transform-paths": "^3.3.1"
   }
 }
