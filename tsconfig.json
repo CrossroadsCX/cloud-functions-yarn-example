@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@crossroadscx/utils": ["packages/utils/src"]
+    },
+    "types": ["node"]
+  }
+}
