@@ -6,6 +6,15 @@
     "clean": "rimraf ./dist ./tsconfig.tsbuildinfo",
     "lint": "eslint --ext=tsx,ts,js src"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "dependencies": {
     "@google-cloud/logging-winston": "^4.1.1",
     "winston": "^3.4.0"
@@ -17,6 +26,7 @@
     "@typescript-eslint/parser": "^5.9.1",
     "eslint": "^8.6.0",
     "eslint-import-resolver-node": "^0.3.6",
+    "eslint-module-utils": "^2.7.2",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",

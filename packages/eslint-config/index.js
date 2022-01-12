@@ -21,6 +21,16 @@ module.exports = {
         "import/prefer-default-export": "off",
         "semi": "off",
         "@typescript-eslint/semi": ['error', 'never'],
+        "import/extensions": [
+          "error",
+          "ignorePackages",
+          {
+            "js": "never",
+            "jsx": "never",
+            "ts": "never",
+            "tsx": "never",
+          },
+        ],
       },
       extends: [
         'airbnb',
