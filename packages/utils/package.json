@@ -1,0 +1,9 @@
+{
+  "name": "utils",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "build": "ttsc --build && ttsc -p tsconfig.cjs.json",
+    "clean": "rimraf ./dist ./tsconfig.tsbuildinfo",
+    "lint": "eslint --ext=tsx,ts,js src"
+  }
+}
