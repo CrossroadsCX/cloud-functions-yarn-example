@@ -8,5 +8,8 @@
   },
   "dependencies": {
     "winston": "^3.4.0"
+  },
+  "devDependencies": {
+    "@crossroadscx/eslint-config-example": "workspace:^"
   }
 }
